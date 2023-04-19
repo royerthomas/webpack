@@ -1,0 +1,1 @@
+{"version":3,"file":"../css/editor.css","mappings":";;;AAEA;AACA;AADA;;AAIA;AACA;AADA","sources":["webpack://mkx-project/./src/editor/editor.scss"],"sourcesContent":["$black: #000;\n\n.c-theme {\n    font-weight: bold;\n}\n\n.span-block{\n    display: block;\n}"],"names":[],"sourceRoot":""}

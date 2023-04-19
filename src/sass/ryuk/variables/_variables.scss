@@ -1,0 +1,102 @@
+/*
+|---------------------------------------------------------------
+| Variables
+|---------------------------------------------------------------
+| Import variables
+|
+|
+*/
+@import 'spaces';
+@import 'text';
+
+:root {
+
+    //colors 
+    --c-white: #FFFFFF;
+    --c-white-opacity: rgba(216, 216, 216, 0.6);
+    --c-black: #000000;
+
+    --c-blue: #6FA6D9;
+    --c-blue-verse: #49A1F2;
+    --c-dark-blue: #032D4C;
+    --c-dark-blue-opacity: rgba(3,45,76, 0.8);
+    --c-blue-opacity: rgba(3,45,76, 0.6);
+    --c-green: #79D173;
+    --c-pink: #EC7BA0;
+    --c-yellow: #EBC801;
+    --c-purple: #C584E5;
+    --c-turquoise: #70D3CB;
+
+    --c-text: #053355;
+
+    --c-background-color: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(233,240,251,1) 100%);
+
+    //height
+    --viewport-height: 100vh;
+    --header-height: 112px;
+
+    --container-width: 1180px;
+
+    //font size
+    --hs-1: 44px;
+    --hs-2: 38px;
+    --hs-3: 30px;
+    --hs-4: 25px;
+    --hs-5: 20px;
+    --hs-6: 16px;
+
+    //text size
+    --fs-1: 18px;
+    --fs-2: 16px;
+    --fs-3: 15px;
+    --fs-4: 13px;
+
+    --main-ff: 'Inter', sans-serif;
+    --secondary-ff: 'Eudoxus Sans', sans-serif;
+
+    @media(max-width: 575px){
+        --container-width: 100%;
+    }
+
+    @media(max-width: 767px){
+        --hs-1: 24px;
+        --hs-2: 24px;
+        --hs-3: 20px;
+    }
+
+    @media(min-width: 576px) and (max-width: 767px){
+        --container-width: 540px;
+    }
+
+    @media(min-width: 768px) and (max-width: 991px){
+        --hs-1: 3vw;
+        --container-width: 720px;
+    }
+
+    @media(min-width: 992px) and (max-width: 1200px){
+        --hs-1: 3vw;
+        --container-width: 960px;
+    }
+
+}
+
+//arrays
+// -- this arrays are used to generate class in generator.scss
+/////////////////////////////////////////////////////////
+$colors: (
+    "c-white",
+    "c-white-opacity", 
+    "c-black", 
+    "c-blue", 
+    "c-dark-blue",
+    "c-blue-opacity",
+    "c-green", 
+    "c-pink",
+    "c-yellow", 
+    "c-purple",
+    "c-turquoise"
+);
+
+$titles: ("hs-1", "hs-2", "hs-3", "hs-4", "hs-5", "hs-6");
+$texts: ("fs-1", "fs-2", "fs-3", "fs-4");
+$fonts: ("main-ff", "secondary-ff");

@@ -1,0 +1,28 @@
+/*
+|--------------------
+|     PAGE HOME
+|--------------------
+*/
+
+.template__home {
+
+    .component.image {
+        position: relative;
+
+        overflow: hidden;
+
+        .image__layer {
+            position: absolute;
+
+            bottom: -200px;
+            left: 0;
+
+            height: calc(60% + 200px);
+            width: 100%;
+
+            background-color: var(--c-tpl-xl);
+
+            // transform: skewY(-13deg);
+        }
+    }
+}
